@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+    background-color: #fff; /* Fundo branco para a caixa */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.profile-photo {
+    max-width: 200px; /* Ajuste conforme necessário */
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+    flex-shrink: 0; /* Garante que a imagem não encolha */
+    border-radius: 8px; /* Torna a imagem com bordas arredondadas */
+}
+
+.about-details {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.about-details p {
+    margin: 5px 0;
+}
+
+.about-text {
+    background-color: #fff; /* Fundo branco para a caixa de texto */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 8px; /* Bordas arredondadas */
+    line-height: 1.6; /* Ajusta a altura da linha para melhor legibilidade */
+    text-align: justify; /* Justifica o texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.education-logo {
+    max-width: 80px; /* Ajuste conforme necessário */
+    margin-right: 20px;
+}
+
+.education-details {
+    flex-grow: 1;
+}
+
+.education-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.education-details p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
