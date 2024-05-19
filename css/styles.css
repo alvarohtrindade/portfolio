@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #285fe0;
     color: white;
     padding: 1em 0;
     text-align: center;
@@ -54,7 +54,7 @@ button {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -125,11 +125,11 @@ h2 {
 }
 
 footer {
-    background-color: #333;
+    background-color: #285fe0;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    position: absolute;
+    padding: 1px 0;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
